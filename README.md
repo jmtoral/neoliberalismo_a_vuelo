@@ -14,11 +14,11 @@ Además, para limitar las búquedas a artículos que tuviesen *al menos a uno de
 
 ```TITLE(neoliberalism OR neoliberalimo OR néolibéralisme OR neoliberalismus) AND (LIMIT-TO (DOCTYPE , "ar")) AND  (LIMIT-TO ( AFFILCOUNTRY ,  "Mexico"))```
 
-Dichas consultas fueron hechas el 22 de julio de 2019 al medio día en formatos `.csv` y `.bib`, disponibles en la carpeta **01_Datos** en este repositorio.
+Dichas consultas fueron hechas el 22 de julio de 2019 `.csv` y `.bib`, disponibles en la carpeta **01_Datos** en este repositorio.
 
 ## Código
 
-La base fue tratada en **R** con base en los fundamentos teóricos y los comandos del paquete [`bibliometrix`](https://cran.r-project.org/web/packages/bibliometrix/vignettes/bibliometrix-vignette.html)<sup>2</sup>. El archivo *neoliberalismo_code.R* contiene todo el código necesario para constuir las visualizaciones, a su vez guardadas en la carpeta **03_Graficas**, y los análisis correspondientes. Aunado a lo anterior, el archivo *neoliberalismo_art.Rmd* contiene el código de *Markdown* para producir el artículo. 
+La base fue tratada en **R** con base en los fundamentos teóricos y los comandos del paquete [`bibliometrix`](https://cran.r-project.org/web/packages/bibliometrix/vignettes/bibliometrix-vignette.html)<sup>2</sup>. El archivo *neoliberalismo_code.R* contiene todo el código necesario para constuir las visualizaciones, a su vez guardadas en la carpeta **03_Graficas**, y los análisis correspondientes. 
 
 <sup>1</sup> Aprovecho para agrader enormemente a mis colegas Alicia Berceinas y Miguel Toro por ayudarme a conseguir las bases.
 
