@@ -8,11 +8,11 @@ Este artículo tiene como insumo principal una serie de consultas de la base de 
 
 La búsqueda, en términos de *SCOPUS* fue ejecutada de la siguiente forma:
 
-```TITLE(neoliberalism OR neoliberalimo OR néolibéralisme OR neoliberalismus) AND (LIMIT-TO (DOCTYPE , "ar"))```
+```TITLE(neoliberalism OR neolisberalimo OR néolibéralisme OR neoliberalismus) AND (LIMIT-TO (DOCTYPE , "ar"))```
 
 Además, para limitar las búquedas a artículos que tuviesen *al menos a uno de sus autores* como perteneciente a una institución mexicana se utilizó la siguiente consulta:
 
-```TITLE(neoliberalism OR neoliberalimo OR néolibéralisme OR neoliberalismus) AND (LIMIT-TO (DOCTYPE , "ar")) AND  (LIMIT-TO ( AFFILCOUNTRY ,  "Mexico"))```
+```TITLE(neoliberalism OR neoliberalismo OR néolibéralisme OR neoliberalismus) AND (LIMIT-TO (DOCTYPE , "ar")) AND  (LIMIT-TO ( AFFILCOUNTRY ,  "Mexico"))```
 
 Dichas consultas fueron hechas el 22 de julio de 2019 `.csv` y `.bib`, disponibles en la carpeta **01_Datos** en este repositorio.
 
